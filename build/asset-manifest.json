@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.17299269.chunk.css",
+    "main.js": "./static/js/main.da1e46b5.chunk.js",
+    "main.js.map": "./static/js/main.da1e46b5.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+    "static/js/2.3f922dd0.chunk.js": "./static/js/2.3f922dd0.chunk.js",
+    "static/js/2.3f922dd0.chunk.js.map": "./static/js/2.3f922dd0.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.4e6effe778848235fdf84bc2a41aacb7.js": "./precache-manifest.4e6effe778848235fdf84bc2a41aacb7.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.17299269.chunk.css.map": "./static/css/main.17299269.chunk.css.map",
+    "static/media/index.css": "./static/media/startBg.566c8d1b.jpg",
+    "static/media/index.scss": "./static/media/iconfont.e3f728c8.eot",
+    "static/media/photo.png": "./static/media/photo.00e3a0e6.png",
+    "static/media/slide1.png": "./static/media/slide1.5bea97f1.png",
+    "static/media/slide2.png": "./static/media/slide2.2424d71b.png",
+    "static/media/slide3.png": "./static/media/slide3.2bd658bd.png",
+    "static/media/slide4.png": "./static/media/slide4.42065214.png"
+  }
+}

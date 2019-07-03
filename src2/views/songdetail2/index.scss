@@ -1,0 +1,121 @@
+// .song-detail{
+//     width: 100%;
+//     height: 100%;
+//     position: relative;
+//     overflow-x: hidden;
+//     .song-bg{
+//         width: 100%;
+//         height: 100%;
+//         background-repeat: no-repeat;
+//         background-size: cover;
+//         background-position: center;
+//         filter: blur(40px);
+//         -webkit-filter: blur(40px);
+//         z-index: -1;
+//         background-color: #666;
+//     }
+//     .song-container{
+//         position: absolute;
+//         top:0;
+//         left: 0;
+//         width: 100%;
+//         height: 100%;
+//         z-index: 1;
+//     }
+//     .song-pic{
+//         position: relative;
+//         animation: rotate-pic 9.5s infinite linear;
+//     }
+//     .playing {
+//         -webkit-animation-play-state: running;
+//         animation-play-state: running;
+//     }
+//     .paused {
+//         -webkit-animation-play-state: paused;
+//         animation-play-state: paused;
+//     }
+//     .song-pic:before{
+//         content: '';
+//         position: absolute;
+//         width: 100%;
+//         height: 100%;
+//         left: 0;
+//         top: 0;
+//         border-radius: 50%;
+//         box-shadow: inset 0 0 0 6px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+//         z-index: 100;
+//     }
+//     .banner{
+//         max-height: 62%;
+//         margin: 10px 20px;
+//         overflow: hidden;
+//         cursor: pointer;
+//         .banner-elem{
+//             cursor: pointer;
+//             text-align: center;
+//             color: #f3f3f3;
+//             position: relative;
+//             overflow: hidden;
+//             font-size: 16px;
+//             transition: all 0.5s;
+//             .active{
+//                 color: #0076e2;
+//                 font-size: 18px;
+//             }
+//         }
+//         .banner-content{
+//             font-size: 18px;
+//         }
+//     }
+//     .song-list:hover{
+//         background:#dadada;
+//     }
+//     .status-box{
+//         width: 30px;
+//         height: 20px;
+//         display: flex;
+//         flex-direction: row;
+//         align-items:flex-end ;
+//         justify-content: space-around;
+//         overflow: hidden;
+//         margin-left: 20px;
+//     }
+//     .status-box i {
+//         width:5px;
+//         height: 100%;
+//         display: block;
+//         background: #1890ff;
+//         border-radius: 5px;
+//     }
+//     .status-box i:nth-child(1){
+//         animation: playing 1s linear 0.2s infinite;
+//     }
+//     .status-box i:nth-child(2){
+//         animation: playing 1s linear 0.4s infinite;
+//     }
+//     .status-box i:nth-child(3){
+//         animation: playing 1s linear 0.6s infinite;
+//     }
+//     .status-box i:nth-child(4){
+//         animation: playing 1s linear 0.8s infinite;
+//     }
+//     // .status-box.paused i{
+//     //     animation-play-state: paused;
+//     // }
+//     // .status-box.running i{
+//     //     animation-play-state: running;
+//     // }
+// }
+// @keyframes playing { 
+//     0% { transform : translateY(0px); } 
+//     50% { transform: translateY(15px); } 
+//     100% { transform : translateY(0px); } 
+// }
+// @keyframes rotate-pic{
+//     0%{
+//         transform: rotate(0);
+//     }
+//     100%{
+//         transform: rotate(360deg);
+//     }
+// }
